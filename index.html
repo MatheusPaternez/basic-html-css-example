@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=\, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>I like bananas</h1>
+        <h1 class="title">Bananas: Human-friendly</h1>
     </header>
-<nav aria-label="Benefits, types and price!">    <!--  links with aria label for acessibility -->
+<nav class="links" aria-label="Benefits, types and price!">    <!--  links with aria label for acessibility -->
         <ul>
         <li><a href="https://www.dole.com/en-ca/produce/bananas">see the benefits!</a></li>
         <br>
@@ -19,39 +20,40 @@
         <br>
         </ul>
     </nav>
-    <nav aria-label="Navigation links">  <!-- more links -->
+    <nav class="links" aria-label="Navigation links">  <!-- more links -->
         <ul>
-            <li><a href="https://store.steampowered.com/app/2923300/Banana">Our game!</a></li>
+            <li><a href="https://store.steampowered.com/app/2923300/Banana">BANANA game!</a></li>
         </ul>
 
     </nav>
     <main>
         <section>
-            <h2>How Bananas can change our lives?</h2> <!-- information structure -->
+            <div>
+            <h2 id="text" class="artigo">How Bananas can change our lives?</h2> <!-- information structure -->
 
-            <article>
-                    <p>Bananas are rich in potassium, which supports heart health and regulates blood pressure.
-                    Their natural sugars and fiber provide a quick energy boost and sustained digestion.
-                    Bananas contain mood-enhancing tryptophan, helping improve emotional well-being.
-                    They support gut health by feeding beneficial bacteria with their prebiotic fibers.
-                    Incorporating bananas into daily meals can boost overall vitality and long-term wellness.</p>
+            <article id="text">
+                    <p class="artigo">Eating bananas can genuinely change your life by providing a natural, sustained energy boost and uplifting your mood, as they contain tryptophan which helps the body produce serotonin. They are crucial for heart health, helping to regulate blood pressure and prevent muscle cramps thanks to their high potassium content. Furthermore, their natural fiber promotes better digestion and gut wellness. As a perfectly convenient, pre-packaged snack, they make healthy choices effortless. Ultimately, integrating this simple fruit into your diet is a powerful way to support your overall physical and mental well-being every day.</p>
                 </article>
                     <br>
-                    <h2>Why should I eat?</h2>
+                    <h2 id="text" class="side">Why should I eat?</h2>
                     
-                    <p>They're delicious.</p>
+                    <p id="text" class="side">They're delicious.</p>
                     
-                    <h3>How can I believe you?</h3>
+                    <h3 id="text" class="side">How can I believe you?</h3>
                  
-                    <p>Just try it. It will cost only some cents.</p>
+                    <p id="text" class="side">Just try it. It will cost only some cents.</p>
                   
                     <br>
-                    <aside>Hint: Eating 2 bananas per day can help you a lot!</aside>
-                    <br>
-                    <br>
-                    <p>Bananas are helping us since <time datetime="6000 BC-09-10">September 10, 6000 BC</time>.</p>
-                    <br>
-                    <br>
+                    <aside id="text" class="side">Hint: Eating 2 bananas per day can help you a lot!</aside>
+                    <p id="text" class="side">Bananas are helping us since <time datetime="6000 BC-09-10">September 10, 6000 BC</time>.</p>
+                    </div>
+                    <div>
+                        <div class="container-imagens">
+                        <img src="" alt="">
+                        <img src="" alt="">
+                        <img src="" alt="">
+                    </div>
+                    </div>
         </section>
     </main>
 </body>
